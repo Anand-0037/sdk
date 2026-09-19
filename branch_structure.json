@@ -1,0 +1,33 @@
+{
+  "default_branch": "master",
+  "branches": [
+    "feat/relay-pool-liveness-probe-first-ack",
+    "fix/cep-41-client-started-streams",
+    "fix/cep-41-per-sender-accept-numbering",
+    "fix/open-stream-probe-late-reject",
+    "fix/oversized-size-probe-signer-round-trips",
+    "fix/relay-pool-ghost-rebuild-after-disconnect",
+    "master",
+    "origin"
+  ],
+  "parent": {
+    "feat/relay-pool-liveness-probe-first-ack": "master",
+    "fix/cep-41-client-started-streams": "master",
+    "fix/cep-41-per-sender-accept-numbering": "master",
+    "fix/open-stream-probe-late-reject": "master",
+    "fix/oversized-size-probe-signer-round-trips": "master",
+    "fix/relay-pool-ghost-rebuild-after-disconnect": "master",
+    "master": null,
+    "origin": "master"
+  },
+  "order": [
+    "master",
+    "feat/relay-pool-liveness-probe-first-ack",
+    "fix/cep-41-client-started-streams",
+    "fix/cep-41-per-sender-accept-numbering",
+    "fix/open-stream-probe-late-reject",
+    "fix/oversized-size-probe-signer-round-trips",
+    "fix/relay-pool-ghost-rebuild-after-disconnect",
+    "origin"
+  ]
+}
