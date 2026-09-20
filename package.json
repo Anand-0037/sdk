@@ -1,6 +1,6 @@
 {
   "name": "@contextvm/sdk",
-  "version": "0.13.17",
+  "version": "0.14.0",
   "description": "ContextVM SDK for JavaScript/TypeScript",
   "license": "LGPL-3.0-1",
   "author": "ContextVM",
@@ -79,7 +79,7 @@
     "dist/esm"
   ],
   "scripts": {
-    "build": "bun run build:esm",
+    "build": "node api.js && bun run build:esm",
     "build:esm": "mkdir -p dist/esm && echo '{\"type\": \"module\"}' > dist/esm/package.json && bun tsc -p tsconfig.prod.json",
     "lint": "eslint src/",
     "test": "bun test src",
